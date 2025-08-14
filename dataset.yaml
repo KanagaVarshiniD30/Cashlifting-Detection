@@ -1,0 +1,7 @@
+path: C:/Users/ASUS/Documents/Cashlift/processed_frames  # base path to dataset
+train: C:/Users/ASUS/Documents/Cashlift/processed_frames/train/images
+val: C:/Users/ASUS/Documents/Cashlift/processed_frames/val/images
+
+nc: 2 # number of classes
+names: ["cashier","hand"]
+
