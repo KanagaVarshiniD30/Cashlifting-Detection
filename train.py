@@ -10,7 +10,7 @@ model = YOLO("yolov8n.pt")
 model.train(
     data="dataset.yaml",       
     epochs=50,                  
-    imgsz=416,                  
+    imgsz=640,                  
     batch=12,                    
     device="cpu",               # force CPU
     workers=0,                  # avoid Windows multiprocessing
@@ -20,4 +20,5 @@ model.train(
     project="C:/Users/ASUS/Documents/Cashlift/models",  # save location
     name="cashlift_train"         # subfolder name
 )
+
 
